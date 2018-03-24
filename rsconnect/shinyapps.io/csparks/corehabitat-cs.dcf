@@ -1,0 +1,12 @@
+name: corehabitat-cs
+title:
+username:
+account: csparks
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 306489
+bundleId: 1285435
+url: https://csparks.shinyapps.io/corehabitat-cs/
+when: 1521861541.34226
+asMultiple: FALSE
+asStatic: FALSE

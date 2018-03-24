@@ -311,7 +311,6 @@ server <- function(input, output){
   #Set the desired palette and windows font
   
   pal <- colorFactor(palette = c("#9B0000", "#002673", "#267300"), levels =  core_final$STATUS)
-  windowsFonts(Helvetica=windowsFont("Helvetica"))
   
   #Define map outputs
   
@@ -404,7 +403,7 @@ server <- function(input, output){
       theme_bw() +
       theme(panel.grid.major = element_blank(),
             panel.grid.minor = element_blank(),
-            text = element_text(family = "Helvetica", size=16)) +
+            text = element_text(size=16)) +
       coord_flip()
        
       
@@ -423,7 +422,7 @@ server <- function(input, output){
       theme_bw() +
       theme(panel.grid.major = element_blank(),
             panel.grid.minor = element_blank(),
-            text = element_text(family = "Helvetica", size=16)) +
+            text = element_text(size=16)) +
       coord_flip()
     
   })
@@ -441,7 +440,7 @@ server <- function(input, output){
       theme_bw() +
       theme(panel.grid.major = element_blank(),
             panel.grid.minor = element_blank(),
-            text = element_text(family = "Helvetica", size=16)) +
+            text = element_text(size=16)) +
       coord_flip()
     
   })
@@ -456,7 +455,7 @@ server <- function(input, output){
       theme_bw() +
       theme(panel.grid.major = element_blank(),
             panel.grid.minor = element_blank(),
-            text = element_text(family = "Helvetica", size=16)) +
+            text = element_text(size=16)) +
       coord_flip()
   
 })
@@ -474,7 +473,7 @@ server <- function(input, output){
       theme_bw() +
       theme(panel.grid.major = element_blank(),
             panel.grid.minor = element_blank(),
-            text = element_text(family = "Helvetica", size=16)) +
+            text = element_text(size=16)) +
       coord_flip()
   
 })
@@ -492,7 +491,7 @@ server <- function(input, output){
       theme_bw() +
       theme(panel.grid.major = element_blank(),
             panel.grid.minor = element_blank(),
-            text = element_text(family = "Helvetica", size=16)) +
+            text = element_text(size=16)) +
       coord_flip()
   
 })
@@ -507,7 +506,7 @@ server <- function(input, output){
       theme_bw() +
       theme(panel.grid.major = element_blank(),
             panel.grid.minor = element_blank(),
-            text = element_text(family = "Helvetica", size=16)) +
+            text = element_text(size=16)) +
       coord_flip()
   
 })
@@ -523,7 +522,7 @@ server <- function(input, output){
       theme_bw() +
       theme(panel.grid.major = element_blank(),
             panel.grid.minor = element_blank(),
-            text = element_text(family = "Helvetica", size=16)) +
+            text = element_text(size=16)) +
       coord_flip()
   
 })
@@ -542,7 +541,7 @@ server <- function(input, output){
       theme_bw() +
       theme(panel.grid.major = element_blank(),
             panel.grid.minor = element_blank(),
-            text = element_text(family = "Helvetica", size=16)) +
+            text = element_text(size=16)) +
       coord_flip()
   
 })
