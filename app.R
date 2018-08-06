@@ -203,7 +203,7 @@ ui <- dashboardPage(
                     tags$p("This app provides an initial exploration of core habitat and its characteristics across California.  Core habitat can be explored in terms of ecoregion, management status, or both.  Characteristics of the core habitat include size, percent of the area that it covers, and percent of the core habitat that a particular category represents.  For instance, it can answer questions such as:",
                            tags$ul(
                              tags$li(
-                               "What percentage of all core haibtat in California is unprotected?"),
+                               "What percentage of all core habitat in California is unprotected?"),
                              tags$li(
                                "How much core habitat is there in the Sierra Nevada?"),  
                              tags$li(
